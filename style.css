@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* top_section style start from here*/
+.header{
+    height: 660px;
+    width: 100%;
+    display: flex;
+    padding: 80px, 150px;
+    background-image: url(header-bg.png);
+    background-size: cover;
+}
+.header .text-part{
+    height: 100%;
+    width: 50%;
+}
+.text-part h3{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 50px;
+}
+.text-part h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 80px;
+    color: orchid;
+}
+.text-part p{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+.text-part .Hire-btn{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    margin-left: 40%;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 2px solid rgb(255, 1, 1);
+}
+.text-part .Hire-btn a{
+    text-decoration: none;
+}
+.header .image-part{
+    height: 100%;
+    width: 50%;
+}
+.image-part{
+   background-image: url(peter.png);
+   background-size: contain;
+   background-repeat: no-repeat; 
+   margin-left: 40px;
+}
+/* top_section style end here */
+/* biography section style start from here */
+.biography{
+    height: 660px;
+    width: 100%;
+    padding: 80px, 150px;
+    display: flex;
+    background-image: url(biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.biography .biography-image{
+    height: 100%;
+    width: 50%;
+    background-image: url(peter_dream.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.biography .biography-text{
+    height: 100%;
+    width: 50%;
+}
+.biography-text h1{
+    font-size: 80px;
+    margin-top: 120px;
+}
+.biography-text p{
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 5px;
+    padding: 10px;
+}
+.biography-text .biography-btn a{
+    text-decoration: none;
+}
+.biography-text .biography-btn{
+    height: 40px;
+    width: 150px;
+    margin-left: 5%;
+    background-color: orchid;
+    color: white;
+    border: 2px solid rgb(255, 1, 1);
+    border-radius: 10px;
+}
+/* biography section style end here */
+/*  Latest work section style start from here*/
+.work_section{
+    height: 500px;
+    width: 100%;
+    padding: 80px, 120px;
+    background-image: url(latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.field{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+
+}
+.work_section h1{
+    text-align: center;
+    color: red;
+    font-size:40px;
+}
+.work_section .card1{
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+    background-image: url(latest-work/work-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work_section .card2{
+    height: 400px;
+    width: 400px;
+    margin-left: 60px;
+    background-image: url(latest-work/work-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work_section .card3{
+    height: 400px;
+    width: 400px;
+    margin-left: 80px;
+    background-image: url(latest-work/work-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* Latest work section style end here */
+/* last section style start from here */
+.last-section{
+    height: 450px;
+    width: 100%;
+    background-image: url(footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.last-section h1{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+.last-section h4,h5{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.last-section .footer{
+    height: 100px;
+    width: 40%;
+    margin-left: 33%;
+
+}
+.last-section .footer p{
+    text-align: justify;
+    color: dimgrey;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.last-section .msg-box{
+    height: 150px;
+    width: 500px;
+    background-color: orchid;
+}
+.msg-box{
+    margin-left: 35%;
+    margin-top: 30px;
+}
+.msg-box h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.msg-box h4 a{
+    text-decoration: none;
+}
+.msg-box h4{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+/* last section style end here */
